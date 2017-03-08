@@ -4,8 +4,8 @@
 
 * [x]	Experiment on how to 3D transform in css and manipulate word wrap nicely.
 <a href="http://imgur.com/BRfqdWV"><img src="http://i.imgur.com/BRfqdWV.gif" title="source: imgur.com" /></a>
-* [ ]	and more..
-
+* [x]	z-index and reverse it (z-index only work for elements position attribute is NOT static (default).
+[Imgur](http://i.imgur.com/sKM7Mu4.gifv)
 
 
 ## License

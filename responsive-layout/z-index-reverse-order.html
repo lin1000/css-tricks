@@ -1,0 +1,60 @@
+<head>
+  <meta charset="UTF-8">
+</head>
+
+
+<style>
+
+/**
+
+Why Does it Cause Confusion? Link
+Although z-index is not a difficult property to understand, due to false assumptions it can cause confusion for beginning developers. This confusion occurs because z-index will only work on an element whose position property has been explicitly set to absolute, fixed, or relative.
+
+**/
+#grey_box {
+  width: 200px;
+  height: 200px;
+  border: solid 1px #ccc;
+  background: #ddd;
+  position: absolute;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+#blue_box {
+  width: 200px;
+  height: 200px;
+  border: solid 1px #4a7497;
+  background: #8daac3;
+  position: absolute;
+  z-index: 500;
+  left: 60px;
+  top: 60px;
+}
+
+#gold_box {
+  width: 200px;
+  height: 200px;
+  border: solid 1px #8b6125;
+  background: #ba945d;
+  position: absolute;
+  z-index: 9999;
+  left: 90px;
+  top: 90px;
+}
+</style>
+
+<body>
+
+         <div id="grey_box">
+          一二三四五六七八九十一二三四五六七八九十
+         </div> 
+         <div id="blue_box"> 
+               table-cell內容2
+         </div> 
+         <div id="gold_box"> 
+               table-cell內容3
+         </div> 
+
+</body>
